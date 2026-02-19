@@ -7,7 +7,7 @@
       "executor": "@nx/eslint:lint"
     },
     "typecheck": {
-      "executor": "nx:run-command",
+      "executor": "nx:run-commands",
       "options": {
         "command": "npx tsc --noEmit -p libs/shared-types/tsconfig.json"
       }
